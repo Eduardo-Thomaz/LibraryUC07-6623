@@ -14,6 +14,16 @@ namespace Biblioteca.Controllers
         [HttpPost]
         public IActionResult Cadastro(Livro l)
         {
+
+            /*if () {
+
+                ViewBag.Message = "Não é possível fazer cadastros em branco!";
+                
+                return RedirectToAction("Cadastro.cshtml");
+            }
+
+            else {*/
+
             LivroService livroService = new LivroService();
 
             if(l.Id == 0)
@@ -26,6 +36,7 @@ namespace Biblioteca.Controllers
             }
 
             return RedirectToAction("Listagem");
+            
         }
 
         public IActionResult Listagem(string tipoFiltro, string filtro)
