@@ -43,7 +43,7 @@ namespace Biblioteca.Models
                     //definindo dinamicamente a filtragem
                     switch(filtro.TipoFiltro)
                     {
-                        case "NomeUsuario":
+                        case "Usuario":
                             query = bc.Emprestimos.Where(l => l.NomeUsuario.Contains(filtro.Filtro));
                         break;
 
