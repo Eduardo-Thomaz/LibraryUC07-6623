@@ -1,3 +1,4 @@
+using System;
 using Biblioteca.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,15 +16,6 @@ namespace Biblioteca.Controllers
         public IActionResult Cadastro(Livro l)
         {
 
-            /*if () {
-
-                ViewBag.Message = "Não é possível fazer cadastros em branco!";
-                
-                return RedirectToAction("Cadastro.cshtml");
-            }
-
-            else {*/
-
             LivroService livroService = new LivroService();
 
             if(l.Id == 0)
@@ -39,7 +31,7 @@ namespace Biblioteca.Controllers
             
         }
 
-        public IActionResult Listagem(string tipoFiltro, string filtro)
+        /*public IActionResult Listagem(string tipoFiltro, string filtro)
         {
             Autenticacao.CheckLogin(this);
             FiltrosLivros objFiltro = null;
@@ -51,6 +43,26 @@ namespace Biblioteca.Controllers
             }
             LivroService livroService = new LivroService();
             return View(livroService.ListarTodos(objFiltro));
+        }*/
+
+        public IActionResult Listagem(string tipoFiltro, string filtro, string itensPorPagina, int PaginaAtual)
+        {
+            Autenticacao.CheckLogin(this);
+            FiltrosLivros objFiltro = null;
+            if(!string.IsNullOrEmpty(filtro)) {
+
+                objFiltro = new FiltrosLivros();
+                objFiltro.Filtro = filtro;
+                objFiltro.TipoFiltro = tipoFiltro;
+
+            }
+                ViewData["livrosPorPagina"] = string.IsNullOrEmpty(itensPorPagina) ? 10 : Int32.Parse(itensPorPagina);
+                ViewData["PaginaAtual"] = PaginaAtual !=0 ? PaginaAtual : 1;
+
+            LivroService livroService = new LivroService();
+
+            return View(livroService.ListarTodos(objFiltro));
+        
         }
 
         public IActionResult Edicao(int id)
