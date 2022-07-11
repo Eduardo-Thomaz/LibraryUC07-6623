@@ -52,3 +52,8 @@ D:\DesenvolvedorWeb\UC07\Projeto_UC_07_Eduardo-Thomaz\Biblioteca\obj\Debug\netco
 D:\DesenvolvedorWeb\UC07\Projeto_UC_07_Eduardo-Thomaz\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.dll
 D:\DesenvolvedorWeb\UC07\Projeto_UC_07_Eduardo-Thomaz\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.pdb
 D:\DesenvolvedorWeb\UC07\Projeto_UC_07_Eduardo-Thomaz\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
+D:\DesenvolvedorWeb\UC07\Projeto_UC_07_Eduardo-Thomaz\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastrarUsuario.cshtml.g.cs
+D:\DesenvolvedorWeb\UC07\Projeto_UC_07_Eduardo-Thomaz\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\EditarUsuario.cshtml.g.cs
+D:\DesenvolvedorWeb\UC07\Projeto_UC_07_Eduardo-Thomaz\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ListarUsuario.cshtml.g.cs
+D:\DesenvolvedorWeb\UC07\Projeto_UC_07_Eduardo-Thomaz\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\NeedAdmin.cshtml.g.cs
+D:\DesenvolvedorWeb\UC07\Projeto_UC_07_Eduardo-Thomaz\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ExcluirUsuario.cshtml.g.cs

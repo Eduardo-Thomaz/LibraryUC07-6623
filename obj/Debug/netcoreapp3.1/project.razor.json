@@ -14402,6 +14402,16 @@
   "RootNamespace": "Biblioteca",
   "Documents": [
     {
+      "FilePath": "d:\\DesenvolvedorWeb\\UC07\\Projeto_UC_07_Eduardo-Thomaz\\Biblioteca\\Views\\Usuario\\ListarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\ListarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DesenvolvedorWeb\\UC07\\Projeto_UC_07_Eduardo-Thomaz\\Biblioteca\\Views\\Usuario\\CadastrarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\CadastrarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\DesenvolvedorWeb\\UC07\\Projeto_UC_07_Eduardo-Thomaz\\Biblioteca\\Views\\Home\\Login.cshtml",
       "TargetPath": "Views\\Home\\Login.cshtml",
       "FileKind": "mvc"
@@ -14447,6 +14457,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\DesenvolvedorWeb\\UC07\\Projeto_UC_07_Eduardo-Thomaz\\Biblioteca\\Views\\Usuario\\EditarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\EditarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\DesenvolvedorWeb\\UC07\\Projeto_UC_07_Eduardo-Thomaz\\Biblioteca\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14462,6 +14477,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\DesenvolvedorWeb\\UC07\\Projeto_UC_07_Eduardo-Thomaz\\Biblioteca\\Views\\Usuario\\NeedAdmin.cshtml",
+      "TargetPath": "Views\\Usuario\\NeedAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\DesenvolvedorWeb\\UC07\\Projeto_UC_07_Eduardo-Thomaz\\Biblioteca\\Views\\Emprestimo\\Listagem.cshtml",
       "TargetPath": "Views\\Emprestimo\\Listagem.cshtml",
       "FileKind": "mvc"
@@ -14469,6 +14489,11 @@
     {
       "FilePath": "d:\\DesenvolvedorWeb\\UC07\\Projeto_UC_07_Eduardo-Thomaz\\Biblioteca\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DesenvolvedorWeb\\UC07\\Projeto_UC_07_Eduardo-Thomaz\\Biblioteca\\Views\\Usuario\\ExcluirUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\ExcluirUsuario.cshtml",
       "FileKind": "mvc"
     },
     {
